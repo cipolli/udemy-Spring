@@ -17,6 +17,7 @@ public class Programa {
 			Pessoa p = em.find(Pessoa.class, 2);
 			
 			em.getTransaction().begin();
+			System.out.println("teste git");
 			em.remove(p);
 			
 			
