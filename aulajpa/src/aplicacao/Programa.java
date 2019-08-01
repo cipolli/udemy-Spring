@@ -27,5 +27,9 @@ public class Programa {
 			em.close();
 			emf.close();
 			
+			
+
+			System.out.println("ve ai!");
+			
 		}
 }
